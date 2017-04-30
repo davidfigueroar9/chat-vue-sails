@@ -1,0 +1,26 @@
+{
+  "name": "Chat",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "include-all": "^1.0.0",
+    "rc": "1.0.1",
+    "sails": "~0.12.13",
+    "sails-disk": "~0.10.9",
+    "sails.io.js": "^1.1.12",
+    "socket.io-client": "^1.7.3"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davidfigueroa/Chat.git"
+  },
+  "author": "davidfigueroa",
+  "license": ""
+}
